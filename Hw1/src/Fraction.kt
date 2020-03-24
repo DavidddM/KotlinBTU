@@ -40,7 +40,8 @@ fun main() {
     frac2.reduce()
     print("After Reduce (Frac2): $frac2\n")
 
-    val frac3 = frac1.multiply(frac2).reduce()
+    val frac3 = frac1.multiply(frac2)
+    frac3.reduce()
 
     print("$frac1 * $frac2 = $frac3")
 }
