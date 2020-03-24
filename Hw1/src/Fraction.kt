@@ -1,4 +1,9 @@
-class Fraction(private var numerator: Int, private var denominator: Int) {
+class Fraction(private var numerator: Int, private var denominator : Int) {
+    init {
+        if (this.denominator == 0) {
+            throw ArithmeticException("/ by zero")
+        }
+    }
 
     override fun toString(): String {
         return "$numerator/$denominator"
