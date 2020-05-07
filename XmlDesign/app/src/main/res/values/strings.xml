@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">XmlDesign</string>
+    <string name="imgContentDesc"><strike>woman</strike></string>
+    <string name="title">Black turtleneck top</string>
+    <string name="priceStr">$42</string>
+    <string name="strike_text"><strike>$62</strike></string>
+    <string name="ratingFloat">4.5</string>
+    <string name="ratingClass">Very Good</string>
+    <string name="reviewsCount">49 Reviews</string>
+    <string name="descTitle">Description</string>
+    <string name="description">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.</string>
+    <string name="cartButton">ADD TO CART</string>
+    <string name="buyButton">BUY NOW</string>
+</resources>
