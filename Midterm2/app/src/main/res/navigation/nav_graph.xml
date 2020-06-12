@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_add">
+
+    <fragment
+        android:id="@+id/navigation_add"
+        android:name="com.example.midterm2.fragments.FirstFragment"
+        android:label="Add"
+        tools:layout="@layout/first_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_stats"
+        android:name="com.example.midterm2.fragments.SecondFragment"
+        android:label="Report"
+        tools:layout="@layout/second_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_list"
+        android:name="com.example.midterm2.fragments.ThirdFragment"
+        android:label="My Expenses"
+        tools:layout="@layout/third_fragment">
+    </fragment>
+
+</navigation>
