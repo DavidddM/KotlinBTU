@@ -5,8 +5,6 @@ import android.text.TextUtils
 import android.view.View
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import androidx.navigation.NavController
-import androidx.navigation.Navigation
 import com.example.midterm2.App
 import com.example.midterm2.R
 import com.example.midterm2.models.ExpenseEntity
@@ -15,12 +13,8 @@ import kotlinx.android.synthetic.main.first_fragment.view.*
 import java.lang.Exception
 
 class FirstFragment : Fragment(R.layout.first_fragment) {
-    private lateinit var navController: NavController
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-        navController = Navigation.findNavController(view)
 
         view.AddButton.setOnClickListener {
             var message = "Expense saved.."
